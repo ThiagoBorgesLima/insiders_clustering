@@ -93,9 +93,20 @@ During the Exploratory Data Analysis I founded some strange values, but after ex
 
 **Step 05. Data Preparation:**
 
-For a data preparation I made a Space Organization with some models for Embedding:
+For a data preparation I made a Space Organization with some models with Embedding:
 
 
+# PCA
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_pca.png" width="700" height="445"><br>
+
+# UMAP
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/emedding_umap.png" width="700" height="445"><br>
+
+# TSNE
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_tsne.png" width="700" height="445"><br>
+
+# Tree
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_tree.png" width="700" height="445"><br>
 
 
 
