@@ -1,26 +1,27 @@
-# insiders_clustering
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/insiders.png" width="700" height="445"><br>
 
-Sem dúvida o maior e mais projeto que realizei até o momento, tendo como base um problema de classificação de clientes "Insiders" dentro de um banco de dados existente em um e-commerce.
+# Insiders Clustering
 
-O objetivo inicial foi determinar quem seria integrante desse determinado grupo "Insiders", determinando os maiores e melhores compradores do site.
+Undoubtedly the biggest and most project I've done so far, based on a problem of classifying "Insiders" customers within an existing database in an e-commerce.
 
-Após o primeiro ciclo, foram observadas as caracteristicas do grupo insiders, e estudadas possiveis ideias/sugestoes sobre o que fazer para cada determinado grupo de aproximar ao maximo do "Insiders"
+The initial objective was to determine who would be a member of this particular "Insiders" group, determining the biggest and best buyers on the site.
 
-No ciclo seguinte, utilizamos Metabase para demonstrar os dados sobre os clientes através de um banco de dados local.
+After the first cycle, the characteristics of the Insiders group were observed, and possible ideas/suggestions were studied on what to do for each given group to approach the "Insiders" as much as possible.
 
-No ciclo seguinte, executamos o deploy do projeto todo pela AWS ( Amazon ), banco de dados(RDS) Postgres, dados atualizados pelos profissionais do site( Bucket S3) através de um .csv, utilizamos o processamento de uma maquina em cloud ( R2DS ), para executar o notebook com o modelo ( Através de um cronjob, com programação de horario de execução através de Bash e utilizando uma ferramenta chamada papermill )
-O resultado da execução do notebook ja envia os dados para o Banco de Dados (S3) Postgres, e é lido através de uma ferramenta da BI conhecida como Metabase.
+In the next cycle, we used Metabase to display customer data from a local database.
 
- 
-
-
-## Bank
+In the next cycle, we deploy the entire project through AWS (Amazon), Postgres database (RDS), data updated by site professionals (Bucket S3) through a .csv, we use the processing of a machine in the cloud (R2DS ), to run the notebook with the model (Through a cronjob, with programming the execution time through Bash and using a tool called papermill ) The result of executing the notebook already sends the data to the Database (S3) Postgres , and is read through a BI tool known as Metabase.
 
 #### This project was made by Thiago Borges Lima.
 
 # 1. Business Problem.
 
+A E-commerce company wants to know who expend more money at the site, and call them "Insiders", with an objective to send promotions and coupons to maxymize their sales with this group.
+They need to demonstrate who these customers are through a BI platform to improve the efficiency of service to this group by the site's employees.
+
 # 2. Business Assumptions.
+
+
 
 # 3. Solution Strategy
 
