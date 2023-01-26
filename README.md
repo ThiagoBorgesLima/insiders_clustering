@@ -46,7 +46,7 @@ My strategy to solve this challenge was:
 
 
 
-**Step 01. Data Description:**
+## **Step 01. Data Description:**
 
 
 
@@ -63,7 +63,7 @@ Attribute | Definition
 
 
 
-**Step 02. Feature Engineering:**
+## **Step 02. Feature Engineering:**
 
 Attribute | Definition
 ------------ | -------------
@@ -80,76 +80,73 @@ Attribute | Definition
 |Unique Basket Size | how many unique items are in the clients baskets|
 
 
-**Step 03. Data Filtering:**
+## **Step 03. Data Filtering:**
 
 I studied the dataset and removed some "Outliers". 
 
 
 
-**Step 04. Exploratory Data Analysis:**
+## **Step 04. Exploratory Data Analysis:**
 
 During the Exploratory Data Analysis I founded some strange values, but after explore them I verified they as true values.
 
 
-**Step 05. Data Preparation:**
+## **Step 05. Data Preparation:**
 
 For a data preparation I made a Space Organization with some models with Embedding:
 
 
-# PCA
+### PCA
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_pca.png" width="700" height="445"><br>
 
-# UMAP
+### UMAP
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/emedding_umap.png" width="700" height="445"><br>
 
-# TSNE
+### TSNE
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_tsne.png" width="700" height="445"><br>
 
-# Tree
+### Tree
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_tree.png" width="700" height="445"><br>
 
 
-**Step 06. Feature Selection:**
+## **Step 06. Feature Selection:**
 
 For the feature selection was made a study with a Bivariate Analysis, and the result:
 
 CustomerID, Gross_Revenue, Recency_Days, Qtde_Products, Frequency and Qtde_Returns.
 
 
-**Step 07. Machine Learning Modelling:**
+## **Step 07. Machine Learning Modelling:**
 
 To choose the number of clusters, I used some models with silhouette score:
 
-# K-Means
+### K-Means
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/kmeans.png" width="700" height="445"><br>
 
-# GMM
+### GMM
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/gmm.png" width="700" height="445"><br>
 
-# Hierarchical Clustering
+### Hierarchical Clustering
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/hcsilhouette.png" width="700" height="445"><br>
 
-Dendogram:
+#### Dendogram:
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/hc.png" width="700" height="445"><br>
 
-# KElbow Visualizer
+### KElbow Visualizer
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/kelbow.png" width="700" height="445"><br>
 
-# Silhouette Score
+### Silhouette Score
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/silhouette.png" width="700" height="445"><br>
 
 
-# Final Tree Embedding with 23 Clusters and Silhouette Score 0,66
+### Final Tree Embedding with 23 Clusters and Silhouette Score 0,66
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/tree_embedding_final.png" width="1000" height="445"><br>
 
 
-**Step 08. Convert Model Performance to Business Values / Cluster Analysis:**
+## **Step 08. Convert Model Performance to Business Values / Cluster Analysis:**
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/clusters_table.png" width="700" height="445"><br>
 
 
-
-
-**Step 10. Deploy Modelo to Production:**
 
 # 4. Top 3 Data Insights
 
@@ -165,11 +162,10 @@ Dendogram:
 
 **True/False.**
 
-# 5. Machine Learning Model Applied
-
-# 6. Machine Learning Modelo Performance
 
 # 7. Business Results
+
+# 10. Deploy Modelo to Production:**
 
 # 8. Conclusions
 
