@@ -44,15 +44,60 @@ My strategy to solve this challenge was:
 - Classifying the clusters and show who are the "Insiders"
  
 
+
+
 **Step 01. Data Description:**
+
+
+
+Attribute | Definition
+------------ | -------------
+|CustomerID  | an Id that represents a customer|
+|InvoiceNO | the sale number from site|
+|StockCode| the product code from stock|
+|Description | the description about the product|
+|Quantity | the number of products in the Invoice|
+|InvoiceDate  | the date of the purchase |
+|UnitPrice | the value for the unit|
+|Country | where are the customer buying from|
+
+
 
 **Step 02. Feature Engineering:**
 
+Attribute | Definition
+------------ | -------------
+|Gross Revenue  | how much the client expend totally|
+|Recency | how often the client buys|
+|Quantity of Purchase| how many purchases the clients made|
+|Quantity of Items Purchased | the quantity of items|
+|Quantity of Products Purchased | the quantity of unique products|
+|Average Ticket Value  | the average ticket |
+|Average Recency Days | the average recency days for each client|
+|Frequency Purchased | how many times the clients buy some products during a time|
+|Number of Returns | how many returns the clients realizes|
+|Basket Size | how many items are in then clients basktet|
+|Unique Basket Size | how many unique items are in the clients baskets|
+
+
 **Step 03. Data Filtering:**
+
+I studied the dataset and removed some "Outliers". 
+
+
 
 **Step 04. Exploratory Data Analysis:**
 
+During the Exploratory Data Analysis I founded some strange values, but after explore them I verified they as true values.
+
+
 **Step 05. Data Preparation:**
+
+For a data preparation I made a Space Organization with some models for Embedding:
+
+
+
+
 
 **Step 06. Feature Selection:**
 
