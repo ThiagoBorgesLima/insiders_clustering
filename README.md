@@ -21,11 +21,28 @@ They need to demonstrate who these customers are through a BI platform to improv
 
 # 2. Business Assumptions.
 
+First Assumption: I assume that are some features that I didn't need to use for the initial study:
+Description, Stock_Code and Country.
+
+Second Assumption: I created some features to help the model ( Feature Engineering )
+
+Third Assumption: I removed some "Outliers" clients with strange values.
 
 
 # 3. Solution Strategy
 
 My strategy to solve this challenge was:
+
+- Study the data, understanding the most valuables features and "Outliers"
+- Created some new features to organize better the clusters
+- Remove "empty" lines
+- Study Uni / Bivariate graphic analysis
+- Space Study with PCA, UMAP, t-SNe and Tree-Based Embedding;
+- Test types of rescalling and standardization the features to get better results;
+- Select the most important features;
+- Solve a Clustering with K-Means, GMM,  Hierarchical Clustering and DBScan to find better method with a better Silhouette Score;
+- Classifying the clusters and show who are the "Insiders"
+ 
 
 **Step 01. Data Description:**
 
