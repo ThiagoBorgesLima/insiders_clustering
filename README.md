@@ -109,14 +109,45 @@ For a data preparation I made a Space Organization with some models with Embeddi
 <img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/embedding_tree.png" width="700" height="445"><br>
 
 
-
 **Step 06. Feature Selection:**
+
+For the feature selection was made a study with a Bivariate Analysis, and the result:
+
+CustomerID, Gross_Revenue, Recency_Days, Qtde_Products, Frequency and Qtde_Returns.
+
 
 **Step 07. Machine Learning Modelling:**
 
-**Step 08. Hyperparameter Fine Tunning:**
+To choose the number of clusters, I used some models with silhouette score:
 
-**Step 09. Convert Model Performance to Business Values:**
+# K-Means
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/kmeans.png" width="700" height="445"><br>
+
+# GMM
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/gmm.png" width="700" height="445"><br>
+
+# Hierarchical Clustering
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/hcsilhouette.png" width="700" height="445"><br>
+
+Dendogram:
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/hc.png" width="700" height="445"><br>
+
+# KElbow Visualizer
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/kelbow.png" width="700" height="445"><br>
+
+# Silhouette Score
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/silhouette.png" width="700" height="445"><br>
+
+
+# Final Tree Embedding with 23 Clusters and Silhouette Score 0,66
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/tree_embedding_final.png" width="1000" height="445"><br>
+
+
+**Step 08. Convert Model Performance to Business Values / Cluster Analysis:**
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/clusters_table.png" width="700" height="445"><br>
+
+
+
 
 **Step 10. Deploy Modelo to Production:**
 
