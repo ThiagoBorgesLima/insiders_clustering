@@ -152,20 +152,26 @@ To choose the number of clusters, I used some models with silhouette score:
 
 # 4. Top 3 Data Insights
 
-**Hypothesis 01:**
+**Hypothesis 01: Cluster Insiders customers have a purchase volume (revenue) above 10% of total purchases** 
 
-**True/False.**
-
-**Hypothesis 02:**
-
-**True/False.**
-
-**Hypothesis 03:**
-
-**True/False.**
+**True.**
+**ANSWER**: True, the insider cluster has a purchase volume of 49%.
 
 
-# 10. Deploy Modelo to Production:
+**Hypothesis 02: Cluster Insiders customers have an average number of returns below the average of the total customer base**
+
+**False.**
+**Answer**: False, The insiders cluster has a return average above the general average. ( 187% )
+
+
+**Hypothesis 03: The median billing by customers of the cluster insiders is 10% higher than the median billing overall.**
+
+**True.**
+**Answer**: True, median billing by cluster customers is 342%.
+
+
+
+# 5. Deploy Modelo to Production:
 
 
 
@@ -178,11 +184,20 @@ To choose the number of clusters, I used some models with silhouette score:
 
 
 
-# 8. Conclusions
+# 6. Conclusions
 
-# 9. Lessons Learned
+A Clustering can show much things about some data, you can organize clients, sales, delivery and more. If you need to understand your business, approach with clients or get a better delivery system, clustering will help with this.
+For the Insiders campaign, the E-commerce now can work with the segmentation and try to solve other clusters to come next to Insiders. Example cluster 2, have a loot of devolutions, why they do this? Let's work to solve this and sell more and more.
+The E-commerce now can work individually with all different clusters and try to get better sales.
 
-# 10. Next Steps to Improve
+
+
+# 7. Next Steps to Improve
+
+- AWS improvements
+- Model Fine Tunning
+- Power BI / Tableau 
+
 
 # LICENSE
 
