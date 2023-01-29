@@ -116,6 +116,11 @@ For the feature selection was made a study with a Bivariate Analysis, and the re
 CustomerID, Gross_Revenue, Recency_Days, Qtde_Products, Frequency and Qtde_Returns.
 
 
+
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/MindMap.png" width="1000" height="500"><br>
+Mindmap
+
+
 ## **Step 07. Machine Learning Modelling:**
 
 To choose the number of clusters, I used some models with silhouette score:
