@@ -148,6 +148,8 @@ To choose the number of clusters, I used some models with silhouette score:
 
 
 
+
+
 # 4. Top 3 Data Insights
 
 **Hypothesis 01:**
@@ -163,9 +165,18 @@ To choose the number of clusters, I used some models with silhouette score:
 **True/False.**
 
 
-# 7. Business Results
+# 10. Deploy Modelo to Production:
 
-# 10. Deploy Modelo to Production:**
+
+
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/screenshots/infratotal2.png" width="1100" height="600"><br>
+
+
+
+<img src="https://github.com/ThiagoBorgesLima/insiders_clustering/blob/master/data/processed/insiders_dash.png" width="1100" height="600"><br>
+
+
+
 
 # 8. Conclusions
 
